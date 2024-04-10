@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "10E2B44D-522B-4C5F-BDD2-A166138E9503"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "405359F2-A2E5-4FB3-9E55-0B7EF10009E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GithubRepositoriesSwiftUI/ViewModel/RepositoriesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchRepositories()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "405359F2-A2E5-4FB3-9E55-0B7EF10009E5 - f213e664e2458bdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;GithubRepositoriesSwiftUI.Repository&gt;&gt;) -&gt; () in GithubRepositoriesSwiftUI.RepositoriesViewModel.fetchRepositories() -&gt; ()"
+                  moduleName = "GithubRepositoriesSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgedecarvalho/Documents/PersonalProjects/IOSProjects/GithubRepositoriesSwiftUI/GithubRepositoriesSwiftUI/ViewModel/RepositoriesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "405359F2-A2E5-4FB3-9E55-0B7EF10009E5 - 13e00dd3ebdc3013"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;GithubRepositoriesSwiftUI.Repository&gt;&gt;) -&gt; () in GithubRepositoriesSwiftUI.RepositoriesViewModel.fetchRepositories() -&gt; ()"
+                  moduleName = "GithubRepositoriesSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgedecarvalho/Documents/PersonalProjects/IOSProjects/GithubRepositoriesSwiftUI/GithubRepositoriesSwiftUI/ViewModel/RepositoriesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "470BB90A-9294-4DFD-8BA0-08B7C88B74A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GithubRepositoriesSwiftUI/ViewModel/RepositoriesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchRepositories()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2970173D-D89E-4DE9-A981-B85BA0A26E33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GithubRepositoriesSwiftUI/Services/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "fetchData(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DDA3CCC-A616-4308-8793-539C1735EA69"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GithubRepositoriesSwiftUI/Services/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "makeRequest(url:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1DDA3CCC-A616-4308-8793-539C1735EA69 - 96b4467b262eef89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GithubRepositoriesSwiftUI.WebService.makeRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, completion: (Swift.Optional&lt;Swift.Array&lt;&#x3c4;_0_0&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GithubRepositoriesSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgedecarvalho/Documents/PersonalProjects/IOSProjects/GithubRepositoriesSwiftUI/GithubRepositoriesSwiftUI/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "1DDA3CCC-A616-4308-8793-539C1735EA69 - 7675d26c74c766ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GithubRepositoriesSwiftUI.WebService.makeRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(url: Foundation.URL, completion: (Swift.Optional&lt;Swift.Array&lt;&#x3c4;_0_0&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GithubRepositoriesSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgedecarvalho/Documents/PersonalProjects/IOSProjects/GithubRepositoriesSwiftUI/GithubRepositoriesSwiftUI/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8F24D64-281D-48E1-833A-9CE6FCE1ED73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GithubRepositoriesSwiftUITests/ViewModel/RepositoriesViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "test_webService_fetchData_must_return_passed_array_when_fetchRepositories_is_called()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C8F24D64-281D-48E1-833A-9CE6FCE1ED73 - 2aa1d3128f79413f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GithubRepositoriesSwiftUITests.RepositoriesViewModelTests.test_webService_fetchData_must_return_passed_array_when_fetchRepositories_is_called() -&gt; ()"
+                  moduleName = "GithubRepositoriesSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgedecarvalho/Documents/PersonalProjects/IOSProjects/GithubRepositoriesSwiftUI/GithubRepositoriesSwiftUITests/ViewModel/RepositoriesViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+               <Location
+                  uuid = "C8F24D64-281D-48E1-833A-9CE6FCE1ED73 - 2aa1d3128f79413f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GithubRepositoriesSwiftUITests.RepositoriesViewModelTests.test_webService_fetchData_must_return_passed_array_when_fetchRepositories_is_called() -&gt; ()"
+                  moduleName = "GithubRepositoriesSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgedecarvalho/Documents/PersonalProjects/IOSProjects/GithubRepositoriesSwiftUI/GithubRepositoriesSwiftUITests/ViewModel/RepositoriesViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+               <Location
+                  uuid = "C8F24D64-281D-48E1-833A-9CE6FCE1ED73 - 2aa1d3128f794160"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GithubRepositoriesSwiftUITests.RepositoriesViewModelTests.test_webService_fetchData_must_return_passed_array_when_fetchRepositories_is_called() -&gt; ()"
+                  moduleName = "GithubRepositoriesSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgedecarvalho/Documents/PersonalProjects/IOSProjects/GithubRepositoriesSwiftUI/GithubRepositoriesSwiftUITests/ViewModel/RepositoriesViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
