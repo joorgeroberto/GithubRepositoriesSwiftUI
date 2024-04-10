@@ -46,11 +46,26 @@ final class RepositoriesViewModelTests: XCTestCase {
     
     func test_webService_fetchData_must_return_passed_array_when_fetchRepositories_is_called() {
         // Given
+        guard let sut = sut else {
+            XCTFail("sut must exists.")
+            return
+        }
+        self.webServiceSpy = WebServiceSpy()
+        self.webServiceSpy?.decodedDataArrayToBeReturned = [
+            Repository.fixture(),
+            Repository.fixture(),
+            Repository.fixture()
+        ]
+        sut.webService = self.webServiceSpy!
 
         // When
+        sut.fetchRepositories()
 
         // Then
-
+        DispatchQueue.main.async {
+            XCTAssertEqual(sut.repositories.count, 3)
+            XCTAssertEqual(self.webServiceSpy?.urlStringPassed, URL.getURL.repositories.value)
+        }
     }
 
 

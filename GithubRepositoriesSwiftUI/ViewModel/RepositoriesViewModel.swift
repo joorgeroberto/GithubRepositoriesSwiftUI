@@ -11,7 +11,7 @@ class RepositoriesViewModel: ObservableObject {
     @Published var repositories: [Repository] = []
     var webService: WebServiceProtocol
     
-    init(webService: WebServiceProtocol = WebService()) {
+    init(webService: WebServiceProtocol) {
         self.webService = webService
     }
 

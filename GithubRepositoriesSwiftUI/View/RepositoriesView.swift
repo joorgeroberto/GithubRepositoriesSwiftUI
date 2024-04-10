@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RepositoriesView: View {
-    @ObservedObject var viewModel = RepositoriesViewModel()
+    @ObservedObject var viewModel = RepositoriesViewModel(webService: WebService())
     
     var body: some View {
         NavigationStack {
