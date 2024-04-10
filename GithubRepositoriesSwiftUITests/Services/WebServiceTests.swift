@@ -10,7 +10,6 @@ import XCTest
 
 final class WebServiceTests: XCTestCase {
 
-    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -26,16 +25,5 @@ final class WebServiceTests: XCTestCase {
         
         // Then
         
-    }
-}
-
-class WebServiceStub: WebService {
-    override func decodeDataFrom<T: Decodable>(_ data: Data, completion: @escaping ([T]?) -> ()) {
-        completion([
-            Repository.fixture() as! T,
-            Repository.fixture() as! T,
-            Repository.fixture() as! T
-        ])
-        super.decodeDataFrom(data, completion: completion)
     }
 }

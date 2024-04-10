@@ -67,6 +67,4 @@ final class RepositoriesViewModelTests: XCTestCase {
             XCTAssertEqual(self.webServiceSpy?.urlStringPassed, URL.getURL.repositories.value)
         }
     }
-
-
 }

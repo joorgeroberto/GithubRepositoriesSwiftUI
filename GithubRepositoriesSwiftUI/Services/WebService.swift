@@ -29,10 +29,8 @@ class WebService: WebServiceProtocol {
         let decodedData = try? JSONDecoder().decode(T.self, from: data)
         completion(decodedData)
     }
-}
-
-// MARK: Request Functions
-extension WebService {
+    
+    // MARK: Request Functions
     func makeRequest<T: Decodable>(url: URL, completion: @escaping ([T]?) -> ()) {
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data, error == nil else {
@@ -64,16 +62,14 @@ extension WebService {
         }
         .resume()
     }
-}
 
-// MARK: Fetch Functions
-extension WebService {
+    // MARK: Fetch Functions
     func fetchData<T: Decodable>(url: String, completion: @escaping ([T]?) -> ()) {
         guard let url = URL(string: url) else {
             completion(nil)
             return
         }
-
+        
         self.makeRequest(url: url) { data in
             completion(data)
         }
