@@ -8,14 +8,14 @@
 import Foundation
 
 class WebServiceStub: WebService {
-    let stubDecodeDataWithArrayOnCompletion: Bool = false
-    let stubDecodeDataWithVariableOnCompletion: Bool = false
+    var stubDecodeDataWithArrayOnCompletion: Bool = false
+    var stubDecodeDataWithVariableOnCompletion: Bool = false
 
-    let stubMakeRequestWithArrayOnCompletion: Bool = false
-    let stubMakeRequestWithVariableOnCompletion: Bool = false
+    var stubMakeRequestWithArrayOnCompletion: Bool = false
+    var stubMakeRequestWithVariableOnCompletion: Bool = false
 
-    let stubFetchDataWithArrayOnCompletion: Bool = false
-    let stubFetchDataWithVariableOnCompletion: Bool = false
+    var stubFetchDataWithArrayOnCompletion: Bool = false
+    var stubFetchDataWithVariableOnCompletion: Bool = false
 
     // MARK: Decode Functions
     override func decodeDataFrom<T: Decodable>(_ data: Data, completion: @escaping ([T]?) -> ()) {
